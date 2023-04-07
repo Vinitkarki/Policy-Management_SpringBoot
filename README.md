@@ -22,3 +22,27 @@ The Claim model class is used to store information about the claims made by the 
 8.Right Click on the file and Run as Java Application  
 
 
+## API's  
+  
+Each model class has 5 API's like getAll,getById,add,delete and update.  
+  
+1.Client Model Class APIs:  
+/api/clients (GET Method): This API retrieves a list of all clients stored in the database.  
+/api/clients/{id} (GET Method): This API retrieves the details of a particular client based on their unique ID.  
+/api/clients (POST Method): This API adds a new client to the database with the provided details.  
+/api/clients/{id} (DELETE Method): This API removes an existing client from the database based on their unique ID.  
+/api/clients/{id} (PUT Method): This API updates the details of an existing client in the database based on their unique ID.  
+  
+2.InsurancePolicy Model Class APIs:  
+/api/policies (GET Method): This API retrieves a list of all insurance policies stored in the database.  
+/api/policies/{id} (GET Method): This API retrieves the details of a particular insurance policy based on its unique ID.  
+/api/policies (POST Method): This API adds a new insurance policy to the database with the provided details.  
+/api/policies/{id} (DELETE Method): This API removes an existing insurance policy from the database based on its unique ID.  
+/api/policies/{id} (PUT Method): This API updates the details of an existing insurance policy in the database based on its unique ID.  
+  
+3.Claim Model Class APIs:  
+/api/claims (GET Method): This API retrieves a list of all claims stored in the database.  
+/api/claims{id} (GET Method): This API retrieves the details of a particular claim based on its unique ID.  
+/api/claims (POST Method): This API adds a new claim to the database with the provided details.  
+/api/claims/{id} (DELETE Method): This API removes an existing claim from the database based on its unique ID.  
+/api/claims/{id} (PUT Method): This API updates the details of an existing claim in the database based on its unique ID.  
